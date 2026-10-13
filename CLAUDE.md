@@ -58,6 +58,20 @@ This protocol applies when ending a Beads implementation workflow. It is subordi
 <!-- END BEADS INTEGRATION -->
 
 
+## Agent skills
+
+### Issue tracker
+
+Issues live in the local beads database, via the `bd` CLI (not GitHub Issues). See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+The five default triage roles, applied as beads labels: `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context: one `CONTEXT.md` and `docs/adr/` at the repo root. See `docs/agents/domain.md`.
+
 ## Build & Test
 
 _Add your build and test commands here_
