@@ -4,3 +4,11 @@
 *.db
 .beads-credential-key
 .beads/proxieddb/
+.next/
+.next-test/
+node_modules/
+data/
+test-results/
+playwright-report/
+next-env.d.ts
+*.tsbuildinfo
